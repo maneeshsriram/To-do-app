@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Itim&display=swap");
+
+body {
+  background-color: #fceef5;
+  font-family: "Itim", cursive;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+  font-size: 6rem;
+  text-shadow: 8px 8px #f3bad6;
+  color: #e05297;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+
+.fas {
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 30%;
+  padding: 5px;
+}
+
+.tick {
+  text-decoration: line-through;
+  font-weight: lighter;
+}
